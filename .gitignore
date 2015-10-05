@@ -1,0 +1,6 @@
+dist
+jenkins.api
+event.json
+node_modules
+config.json
+.DS_Store
