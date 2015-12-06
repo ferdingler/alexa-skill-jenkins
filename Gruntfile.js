@@ -12,6 +12,7 @@ module.exports = function (grunt) {
     // Load grunt tasks automatically
     require('load-grunt-tasks')(grunt);
 
+    // Replace this with your Lambda ARN
     var lambdaArn = 'arn:aws:lambda:us-east-1:595878661657:function:jenkins-broken-build';
 
     // Define the configuration for all the tasks
